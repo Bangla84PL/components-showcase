@@ -44,11 +44,9 @@
     "typescript": "^5.9.3"
   },
   "overrides": {
-    "react-spring": {
-      "@react-spring/zdog": {
-        "react": "^19.2.0",
-        "react-dom": "^19.2.0"
-      }
+    "@react-spring/zdog": {
+      "react": "$react",
+      "react-dom": "$react-dom"
     }
   }
 }
