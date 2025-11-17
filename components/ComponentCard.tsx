@@ -13,7 +13,6 @@ interface ComponentCardProps {
 
 export function ComponentCard({ component, index = 0 }: ComponentCardProps) {
   const [copied, setCopied] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
 
   const handleCopyCode = async () => {
     const success = await copyToClipboard(component.code);
@@ -29,8 +28,6 @@ export function ComponentCard({ component, index = 0 }: ComponentCardProps) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: index * 0.05 }}
       className="group glass-card p-6 hover:shadow-lg transition-all duration-300"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
     >
       {/* Header */}
       <div className="flex items-start justify-between mb-4">
@@ -73,47 +70,43 @@ export function ComponentCard({ component, index = 0 }: ComponentCardProps) {
             <div className="text-white/50 text-sm">Preview not available</div>
           )}
         </div>
+      </div>
 
-        {/* Overlay on hover */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 1 : 0 }}
-          className="absolute inset-0 bg-black/40 backdrop-blur-sm flex items-center justify-center gap-4"
-        >
-          <button
-            onClick={handleCopyCode}
-            className={cn(
-              "px-4 py-2 rounded-md font-semibold transition-all duration-200 flex items-center gap-2",
-              copied
-                ? "bg-emerald-500 text-white"
-                : "bg-white text-forest-green hover:bg-white/90"
-            )}
-          >
-            {copied ? (
-              <>
-                <Check className="w-4 h-4" />
-                <span>Copied!</span>
-              </>
-            ) : (
-              <>
-                <Copy className="w-4 h-4" />
-                <span>Copy Code</span>
-              </>
-            )}
-          </button>
-
-          {component.sourceUrl && (
-            <a
-              href={component.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-4 py-2 bg-white/10 text-white rounded-md font-semibold hover:bg-white/20 transition-all duration-200 flex items-center gap-2 border border-white/30"
-            >
-              <ExternalLink className="w-4 h-4" />
-              <span>View Source</span>
-            </a>
+      {/* Action Buttons */}
+      <div className="flex gap-3 mb-4">
+        <button
+          onClick={handleCopyCode}
+          className={cn(
+            "flex-1 px-4 py-2 rounded-md font-semibold transition-all duration-200 flex items-center justify-center gap-2",
+            copied
+              ? "bg-emerald-500 text-white"
+              : "bg-white text-forest-green hover:bg-white/90"
           )}
-        </motion.div>
+        >
+          {copied ? (
+            <>
+              <Check className="w-4 h-4" />
+              <span>Copied!</span>
+            </>
+          ) : (
+            <>
+              <Copy className="w-4 h-4" />
+              <span>Copy Code</span>
+            </>
+          )}
+        </button>
+
+        {component.sourceUrl && (
+          <a
+            href={component.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 px-4 py-2 bg-white/10 text-white rounded-md font-semibold hover:bg-white/20 transition-all duration-200 flex items-center justify-center gap-2 border border-white/30"
+          >
+            <ExternalLink className="w-4 h-4" />
+            <span>View Source</span>
+          </a>
+        )}
       </div>
 
       {/* Footer */}

@@ -146,6 +146,152 @@ const AnimRubberBand = lazy(() => import("@/components/showcase/animations").the
 const AnimWobble = lazy(() => import("@/components/showcase/animations").then(m => ({ default: m.AnimWobble })));
 const AnimGlow = lazy(() => import("@/components/showcase/animations").then(m => ({ default: m.AnimGlow })));
 
+// Carousels & Sliders
+const CarouselAuto = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselAuto })));
+const CarouselArrows = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselArrows })));
+const Carousel3D = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.Carousel3D })));
+const SliderFade = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.SliderFade })));
+const CarouselCards = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselCards })));
+const CarouselInfinite = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselInfinite })));
+const CarouselThumbnails = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselThumbnails })));
+const SliderVertical = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.SliderVertical })));
+const SliderParallax = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.SliderParallax })));
+const CarouselCoverFlow = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselCoverFlow })));
+const CarouselTestimonial = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselTestimonial })));
+const CarouselMultiItem = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselMultiItem })));
+const CarouselSnapScroll = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselSnapScroll })));
+const CarouselKenburns = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselKenburns })));
+const CarouselProgress = lazy(() => import("@/components/showcase/carousels-sliders").then(m => ({ default: m.CarouselProgress })));
+
+// Testimonials
+const TestimonialCard = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialCard })));
+const TestimonialQuote = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialQuote })));
+const TestimonialGrid = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialGrid })));
+const TestimonialFloating = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialFloating })));
+const TestimonialVideo = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialVideo })));
+const TestimonialMinimal = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialMinimal })));
+const TestimonialStats = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialStats })));
+const TestimonialBadge = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialBadge })));
+const TestimonialCompany = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialCompany })));
+const TestimonialSocial = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialSocial })));
+const TestimonialBeforeAfter = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialBeforeAfter })));
+const TestimonialCarouselItem = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialCarouselItem })));
+const TestimonialLongForm = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialLongForm })));
+const TestimonialCompact = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialCompact })));
+const TestimonialFeatured = lazy(() => import("@/components/showcase/testimonials").then(m => ({ default: m.TestimonialFeatured })));
+
+// Pricing Tables
+const PricingSimple = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingSimple })));
+const PricingThreeTier = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingThreeTier })));
+const PricingPopular = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingPopular })));
+const PricingToggle = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingToggle })));
+const PricingComparison = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingComparison })));
+const PricingMinimal = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingMinimal })));
+const PricingGradient = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingGradient })));
+const PricingFree = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingFree })));
+const PricingHighlighted = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingHighlighted })));
+const PricingDark = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingDark })));
+const PricingCompactRow = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingCompactRow })));
+const PricingAnnual = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingAnnual })));
+const PricingUsageBased = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingUsageBased })));
+const PricingEnterprise = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingEnterprise })));
+const PricingLimitedOffer = lazy(() => import("@/components/showcase/pricing-tables").then(m => ({ default: m.PricingLimitedOffer })));
+
+// Data Visualization
+const ChartBar = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartBar })));
+const ChartLine = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartLine })));
+const ChartDonut = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartDonut })));
+const DashboardStats = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.DashboardStats })));
+const ProgressBars = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ProgressBars })));
+const Heatmap = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.Heatmap })));
+const ChartArea = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartArea })));
+const MetricCards = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.MetricCards })));
+const Sparkline = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.Sparkline })));
+const ChartGauge = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartGauge })));
+const ChartComparison = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartComparison })));
+const ProgressRadial = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ProgressRadial })));
+const ChartStackedBar = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartStackedBar })));
+const DashboardKPI = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.DashboardKPI })));
+const ChartTimeline = lazy(() => import("@/components/showcase/data-visualization").then(m => ({ default: m.ChartTimeline })));
+
+// Scrolling Effects
+const ScrollParallax = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollParallax })));
+const ScrollFadeIn = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollFadeIn })));
+const ScrollProgress = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollProgress })));
+const ScrollSlideUp = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollSlideUp })));
+const ScrollStickyHeader = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollStickyHeader })));
+const ScrollRevealCards = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollRevealCards })));
+const ScrollZoom = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollZoom })));
+const ScrollSnapSections = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollSnapSections })));
+const ScrollHorizontal = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollHorizontal })));
+const ScrollStagger = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollStagger })));
+const ScrollRotate = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollRotate })));
+const ScrollBackToTop = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollBackToTop })));
+const ScrollIndicator = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollIndicator })));
+const ScrollBlur = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollBlur })));
+const ScrollColorChange = lazy(() => import("@/components/showcase/scrolling-effects").then(m => ({ default: m.ScrollColorChange })));
+
+// Text Effects
+const TextGradient = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextGradient })));
+const TextGlitch = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextGlitch })));
+const TextTyping = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextTyping })));
+const TextNeon = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextNeon })));
+const TextFadeIn = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextFadeIn })));
+const TextBounce = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextBounce })));
+const TextStroke = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextStroke })));
+const TextShadow = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextShadow })));
+const TextWave = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextWave })));
+const TextRotateWords = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextRotateWords })));
+const TextBlur = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextBlur })));
+const TextScale = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextScale })));
+const TextSplit = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextSplit })));
+const TextUnderline = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextUnderline })));
+const TextShimmer = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextShimmer })));
+const TextRainbow = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextRainbow })));
+const TextHighlight = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextHighlight })));
+const TextFlip = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextFlip })));
+const TextStagger = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextStagger })));
+const TextGlow = lazy(() => import("@/components/showcase/text-effects").then(m => ({ default: m.TextGlow })));
+
+// Backgrounds
+const BackgroundGradient = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundGradient })));
+const BackgroundMesh = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundMesh })));
+const BackgroundAnimatedGradient = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundAnimatedGradient })));
+const BackgroundDots = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundDots })));
+const BackgroundGrid = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundGrid })));
+const BackgroundStripes = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundStripes })));
+const BackgroundGlass = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundGlass })));
+const BackgroundRadial = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundRadial })));
+const BackgroundBlob = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundBlob })));
+const BackgroundNoise = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundNoise })));
+const BackgroundConic = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundConic })));
+const BackgroundWave = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundWave })));
+const BackgroundParticles = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundParticles })));
+const BackgroundCheckerboard = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundCheckerboard })));
+const BackgroundDuotone = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundDuotone })));
+const BackgroundSpotlight = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundSpotlight })));
+const BackgroundGradientBorder = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundGradientBorder })));
+const BackgroundAurora = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundAurora })));
+const BackgroundComic = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundComic })));
+const BackgroundSunset = lazy(() => import("@/components/showcase/backgrounds").then(m => ({ default: m.BackgroundSunset })));
+
+// 3D Elements
+const Card3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Card3D })));
+const Cube3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Cube3D })));
+const CardFlip = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.CardFlip })));
+const ButtonLevitate = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.ButtonLevitate })));
+const Stack3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Stack3D })));
+const Ring3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Ring3D })));
+const BoxIsometric = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.BoxIsometric })));
+const ButtonPress3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.ButtonPress3D })));
+const TextPerspective = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.TextPerspective })));
+const Pyramid3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Pyramid3D })));
+const Badge3D = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.Badge3D })));
+const LayersDepth = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.LayersDepth })));
+const FrameTilt = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.FrameTilt })));
+const CardFolded = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.CardFolded })));
+const TextExtruded = lazy(() => import("@/components/showcase/3d-elements").then(m => ({ default: m.TextExtruded })));
+
 /**
  * Complete components database with 250+ components
  * All components are lazy-loaded for optimal performance
@@ -1044,39 +1190,197 @@ function generateAnimationComponents(): Component[] {
 
 function generateAdditionalComponents(): Component[] {
   const additional: Component[] = [];
-  const categories = [
-    "carousels-sliders",
-    "testimonials",
-    "pricing-tables",
-    "data-visualization",
-    "scrolling-effects",
-    "text-effects",
-    "backgrounds",
-    "3d-elements",
+
+  // Carousels & Sliders (15 components)
+  const carouselComponents = [
+    { id: "carousel-auto", name: "Auto Carousel", comp: CarouselAuto, desc: "Auto-playing carousel with smooth transitions" },
+    { id: "carousel-arrows", name: "Carousel with Arrows", comp: CarouselArrows, desc: "Interactive carousel with navigation arrows" },
+    { id: "carousel-3d", name: "3D Carousel", comp: Carousel3D, desc: "3D perspective carousel effect" },
+    { id: "slider-fade", name: "Fade Slider", comp: SliderFade, desc: "Smooth fade transition slider" },
+    { id: "carousel-cards", name: "Card Carousel", comp: CarouselCards, desc: "Product card carousel showcase" },
+    { id: "carousel-infinite", name: "Infinite Carousel", comp: CarouselInfinite, desc: "Continuously scrolling carousel" },
+    { id: "carousel-thumbnails", name: "Thumbnail Carousel", comp: CarouselThumbnails, desc: "Carousel with thumbnail navigation" },
+    { id: "slider-vertical", name: "Vertical Slider", comp: SliderVertical, desc: "Vertical sliding carousel" },
+    { id: "slider-parallax", name: "Parallax Slider", comp: SliderParallax, desc: "Interactive parallax effect slider" },
+    { id: "carousel-coverflow", name: "CoverFlow Carousel", comp: CarouselCoverFlow, desc: "Apple-style coverflow carousel" },
+    { id: "carousel-testimonial", name: "Testimonial Carousel", comp: CarouselTestimonial, desc: "Customer testimonial carousel" },
+    { id: "carousel-multi", name: "Multi-Item Carousel", comp: CarouselMultiItem, desc: "Multiple items carousel display" },
+    { id: "carousel-snap", name: "Snap Scroll Carousel", comp: CarouselSnapScroll, desc: "Snap-to-position carousel" },
+    { id: "carousel-kenburns", name: "Ken Burns Carousel", comp: CarouselKenburns, desc: "Ken Burns effect carousel" },
+    { id: "carousel-progress", name: "Progress Carousel", comp: CarouselProgress, desc: "Carousel with progress indicator" },
   ];
 
-  let count = 0;
-  const targetTotal = 250;
-  const currentTotal = 5 + 15 + 10 + 8 + 10 + 20 + 10 + 12 + 15 + 15; // 120
+  // Testimonials (15 components)
+  const testimonialComponents = [
+    { id: "testimonial-card", name: "Card Testimonial", comp: TestimonialCard, desc: "Simple card-style testimonial" },
+    { id: "testimonial-quote", name: "Quote Testimonial", comp: TestimonialQuote, desc: "Quote-style testimonial design" },
+    { id: "testimonial-grid", name: "Grid Testimonials", comp: TestimonialGrid, desc: "Grid layout testimonials" },
+    { id: "testimonial-floating", name: "Floating Testimonial", comp: TestimonialFloating, desc: "Floating avatar testimonial" },
+    { id: "testimonial-video", name: "Video Testimonial", comp: TestimonialVideo, desc: "Video-style testimonial card" },
+    { id: "testimonial-minimal", name: "Minimal Testimonial", comp: TestimonialMinimal, desc: "Clean minimal testimonial" },
+    { id: "testimonial-stats", name: "Stats Testimonial", comp: TestimonialStats, desc: "Testimonial with statistics" },
+    { id: "testimonial-badge", name: "Badge Testimonial", comp: TestimonialBadge, desc: "Award badge testimonial" },
+    { id: "testimonial-company", name: "Company Testimonial", comp: TestimonialCompany, desc: "Company logo testimonial" },
+    { id: "testimonial-social", name: "Social Testimonial", comp: TestimonialSocial, desc: "Social media style testimonial" },
+    { id: "testimonial-before-after", name: "Before/After Testimonial", comp: TestimonialBeforeAfter, desc: "Results comparison testimonial" },
+    { id: "testimonial-carousel-item", name: "Carousel Testimonial", comp: TestimonialCarouselItem, desc: "Carousel item testimonial" },
+    { id: "testimonial-long", name: "Long Form Testimonial", comp: TestimonialLongForm, desc: "Detailed long-form testimonial" },
+    { id: "testimonial-compact", name: "Compact Testimonial", comp: TestimonialCompact, desc: "Compact testimonial design" },
+    { id: "testimonial-featured", name: "Featured Testimonial", comp: TestimonialFeatured, desc: "Hero-style featured testimonial" },
+  ];
 
-  const remaining = targetTotal - currentTotal;
+  // Pricing Tables (15 components)
+  const pricingComponents = [
+    { id: "pricing-simple", name: "Simple Pricing", comp: PricingSimple, desc: "Clean simple pricing card" },
+    { id: "pricing-three-tier", name: "Three Tier Pricing", comp: PricingThreeTier, desc: "Three-column pricing table" },
+    { id: "pricing-popular", name: "Popular Badge Pricing", comp: PricingPopular, desc: "Pricing with popular badge" },
+    { id: "pricing-toggle", name: "Toggle Pricing", comp: PricingToggle, desc: "Monthly/yearly toggle pricing" },
+    { id: "pricing-comparison", name: "Comparison Table", comp: PricingComparison, desc: "Feature comparison pricing" },
+    { id: "pricing-minimal", name: "Minimal Pricing", comp: PricingMinimal, desc: "Minimalist pricing design" },
+    { id: "pricing-gradient", name: "Gradient Pricing", comp: PricingGradient, desc: "Gradient border pricing card" },
+    { id: "pricing-free", name: "Free Plan Pricing", comp: PricingFree, desc: "Free tier pricing option" },
+    { id: "pricing-highlighted", name: "Highlighted Pricing", comp: PricingHighlighted, desc: "Highlighted features pricing" },
+    { id: "pricing-dark", name: "Dark Theme Pricing", comp: PricingDark, desc: "Dark mode pricing table" },
+    { id: "pricing-compact", name: "Compact Row Pricing", comp: PricingCompactRow, desc: "Compact horizontal pricing" },
+    { id: "pricing-annual", name: "Annual Pricing", comp: PricingAnnual, desc: "Annual plan pricing card" },
+    { id: "pricing-usage", name: "Usage-Based Pricing", comp: PricingUsageBased, desc: "Pay-as-you-go pricing" },
+    { id: "pricing-enterprise", name: "Enterprise Pricing", comp: PricingEnterprise, desc: "Enterprise plan pricing" },
+    { id: "pricing-limited", name: "Limited Offer Pricing", comp: PricingLimitedOffer, desc: "Time-limited offer pricing" },
+  ];
 
-  for (let i = 0; i < remaining; i++) {
-    const category = categories[i % categories.length];
+  // Data Visualization (15 components)
+  const dataVizComponents = [
+    { id: "chart-bar", name: "Bar Chart", comp: ChartBar, desc: "Animated bar chart visualization" },
+    { id: "chart-line", name: "Line Chart", comp: ChartLine, desc: "Line chart with animations" },
+    { id: "chart-donut", name: "Donut Chart", comp: ChartDonut, desc: "Circular donut chart" },
+    { id: "dashboard-stats", name: "Stats Dashboard", comp: DashboardStats, desc: "Statistics dashboard cards" },
+    { id: "progress-bars", name: "Progress Bars", comp: ProgressBars, desc: "Animated progress bars" },
+    { id: "heatmap", name: "Heatmap", comp: Heatmap, desc: "Activity heatmap visualization" },
+    { id: "chart-area", name: "Area Chart", comp: ChartArea, desc: "Area chart with gradient fill" },
+    { id: "metric-cards", name: "Metric Cards", comp: MetricCards, desc: "Key metric cards display" },
+    { id: "sparkline", name: "Sparkline", comp: Sparkline, desc: "Inline sparkline chart" },
+    { id: "chart-gauge", name: "Gauge Chart", comp: ChartGauge, desc: "Gauge meter visualization" },
+    { id: "chart-comparison", name: "Comparison Chart", comp: ChartComparison, desc: "Side-by-side comparison" },
+    { id: "progress-radial", name: "Radial Progress", comp: ProgressRadial, desc: "Circular progress indicators" },
+    { id: "chart-stacked", name: "Stacked Bar Chart", comp: ChartStackedBar, desc: "Stacked bar visualization" },
+    { id: "dashboard-kpi", name: "KPI Dashboard", comp: DashboardKPI, desc: "Key performance indicators" },
+    { id: "chart-timeline", name: "Timeline Chart", comp: ChartTimeline, desc: "Project timeline visualization" },
+  ];
+
+  // Scrolling Effects (15 components)
+  const scrollingComponents = [
+    { id: "scroll-parallax", name: "Parallax Scroll", comp: ScrollParallax, desc: "Parallax scrolling effect" },
+    { id: "scroll-fade", name: "Fade In Scroll", comp: ScrollFadeIn, desc: "Fade in on scroll animation" },
+    { id: "scroll-progress", name: "Scroll Progress Bar", comp: ScrollProgress, desc: "Page scroll progress indicator" },
+    { id: "scroll-slide-up", name: "Slide Up Scroll", comp: ScrollSlideUp, desc: "Slide up reveal on scroll" },
+    { id: "scroll-sticky", name: "Sticky Header", comp: ScrollStickyHeader, desc: "Sticky navigation header" },
+    { id: "scroll-reveal", name: "Reveal Cards", comp: ScrollRevealCards, desc: "Cards reveal on scroll" },
+    { id: "scroll-zoom", name: "Zoom Scroll", comp: ScrollZoom, desc: "Zoom effect on scroll" },
+    { id: "scroll-snap", name: "Snap Sections", comp: ScrollSnapSections, desc: "Snap scroll sections" },
+    { id: "scroll-horizontal", name: "Horizontal Scroll", comp: ScrollHorizontal, desc: "Horizontal scrolling gallery" },
+    { id: "scroll-stagger", name: "Stagger Animation", comp: ScrollStagger, desc: "Staggered scroll animations" },
+    { id: "scroll-rotate", name: "Rotate Scroll", comp: ScrollRotate, desc: "Rotation on scroll effect" },
+    { id: "scroll-back-top", name: "Back to Top", comp: ScrollBackToTop, desc: "Back to top button" },
+    { id: "scroll-indicator", name: "Scroll Indicator", comp: ScrollIndicator, desc: "Scroll down indicator" },
+    { id: "scroll-blur", name: "Blur Scroll", comp: ScrollBlur, desc: "Blur effect on scroll" },
+    { id: "scroll-color", name: "Color Change Scroll", comp: ScrollColorChange, desc: "Color transition on scroll" },
+  ];
+
+  // Text Effects (20 components)
+  const textComponents = [
+    { id: "text-gradient", name: "Gradient Text", comp: TextGradient, desc: "Colorful gradient text" },
+    { id: "text-glitch", name: "Glitch Text", comp: TextGlitch, desc: "Glitch effect text animation" },
+    { id: "text-typing", name: "Typing Animation", comp: TextTyping, desc: "Typewriter effect text" },
+    { id: "text-neon", name: "Neon Text", comp: TextNeon, desc: "Glowing neon text effect" },
+    { id: "text-fade-in", name: "Fade In Text", comp: TextFadeIn, desc: "Fade in text animation" },
+    { id: "text-bounce", name: "Bounce Text", comp: TextBounce, desc: "Bouncing text animation" },
+    { id: "text-stroke", name: "Stroke Text", comp: TextStroke, desc: "Outlined stroke text" },
+    { id: "text-shadow", name: "3D Shadow Text", comp: TextShadow, desc: "3D shadow text effect" },
+    { id: "text-wave", name: "Wave Text", comp: TextWave, desc: "Wave animation text" },
+    { id: "text-rotate", name: "Rotating Words", comp: TextRotateWords, desc: "Auto-rotating words" },
+    { id: "text-blur", name: "Blur Reveal Text", comp: TextBlur, desc: "Blur to clear text reveal" },
+    { id: "text-scale", name: "Scale Pulse Text", comp: TextScale, desc: "Pulsing scale text" },
+    { id: "text-split", name: "Split Text", comp: TextSplit, desc: "Split reveal text animation" },
+    { id: "text-underline", name: "Animated Underline", comp: TextUnderline, desc: "Hover underline animation" },
+    { id: "text-shimmer", name: "Shimmer Text", comp: TextShimmer, desc: "Shimmering text effect" },
+    { id: "text-rainbow", name: "Rainbow Text", comp: TextRainbow, desc: "Rainbow gradient text" },
+    { id: "text-highlight", name: "Highlighted Text", comp: TextHighlight, desc: "Highlighted text effect" },
+    { id: "text-flip", name: "Flip Text", comp: TextFlip, desc: "3D flip text animation" },
+    { id: "text-stagger", name: "Stagger Reveal", comp: TextStagger, desc: "Staggered text reveal" },
+    { id: "text-glow", name: "Glowing Text", comp: TextGlow, desc: "Pulsing glow text effect" },
+  ];
+
+  // Backgrounds (20 components)
+  const backgroundComponents = [
+    { id: "bg-gradient", name: "Gradient Background", comp: BackgroundGradient, desc: "Smooth gradient background" },
+    { id: "bg-mesh", name: "Mesh Gradient", comp: BackgroundMesh, desc: "Mesh gradient overlay" },
+    { id: "bg-animated-gradient", name: "Animated Gradient", comp: BackgroundAnimatedGradient, desc: "Animated color gradient" },
+    { id: "bg-dots", name: "Dots Pattern", comp: BackgroundDots, desc: "Dotted pattern background" },
+    { id: "bg-grid", name: "Grid Pattern", comp: BackgroundGrid, desc: "Grid line background" },
+    { id: "bg-stripes", name: "Diagonal Stripes", comp: BackgroundStripes, desc: "Striped pattern background" },
+    { id: "bg-glass", name: "Glassmorphism", comp: BackgroundGlass, desc: "Glass blur background" },
+    { id: "bg-radial", name: "Radial Gradient", comp: BackgroundRadial, desc: "Radial gradient background" },
+    { id: "bg-blob", name: "Animated Blobs", comp: BackgroundBlob, desc: "Floating blob animations" },
+    { id: "bg-noise", name: "Noise Texture", comp: BackgroundNoise, desc: "Noise texture background" },
+    { id: "bg-conic", name: "Conic Gradient", comp: BackgroundConic, desc: "Conic rainbow gradient" },
+    { id: "bg-wave", name: "Wave Background", comp: BackgroundWave, desc: "Wave shape background" },
+    { id: "bg-particles", name: "Particles", comp: BackgroundParticles, desc: "Floating particles effect" },
+    { id: "bg-checkerboard", name: "Checkerboard", comp: BackgroundCheckerboard, desc: "Checkerboard pattern" },
+    { id: "bg-duotone", name: "Duotone", comp: BackgroundDuotone, desc: "Duotone color overlay" },
+    { id: "bg-spotlight", name: "Spotlight", comp: BackgroundSpotlight, desc: "Spotlight effect background" },
+    { id: "bg-gradient-border", name: "Gradient Border", comp: BackgroundGradientBorder, desc: "Gradient border effect" },
+    { id: "bg-aurora", name: "Aurora", comp: BackgroundAurora, desc: "Aurora light effect" },
+    { id: "bg-comic", name: "Comic Book", comp: BackgroundComic, desc: "Comic book dots pattern" },
+    { id: "bg-sunset", name: "Sunset Gradient", comp: BackgroundSunset, desc: "Sunset color gradient" },
+  ];
+
+  // 3D Elements (15 components)
+  const threeDComponents = [
+    { id: "3d-card", name: "3D Tilt Card", comp: Card3D, desc: "Interactive 3D tilt card" },
+    { id: "3d-cube", name: "Floating Cube", comp: Cube3D, desc: "Rotating 3D cube" },
+    { id: "3d-flip-card", name: "Flip Card", comp: CardFlip, desc: "Card flip 3D animation" },
+    { id: "3d-button-levitate", name: "Levitating Button", comp: ButtonLevitate, desc: "Floating hover button" },
+    { id: "3d-stack", name: "3D Stack", comp: Stack3D, desc: "Layered 3D stack effect" },
+    { id: "3d-ring", name: "Rotating Ring", comp: Ring3D, desc: "3D rotating ring" },
+    { id: "3d-isometric", name: "Isometric Box", comp: BoxIsometric, desc: "Isometric 3D box" },
+    { id: "3d-button-press", name: "3D Press Button", comp: ButtonPress3D, desc: "Pressable 3D button" },
+    { id: "3d-text-perspective", name: "Perspective Text", comp: TextPerspective, desc: "3D perspective text" },
+    { id: "3d-pyramid", name: "Spinning Pyramid", comp: Pyramid3D, desc: "Rotating 3D pyramid" },
+    { id: "3d-badge", name: "3D Badge", comp: Badge3D, desc: "Flippable 3D badge" },
+    { id: "3d-layers", name: "Depth Layers", comp: LayersDepth, desc: "Multi-layer depth effect" },
+    { id: "3d-frame-tilt", name: "Tilted Frame", comp: FrameTilt, desc: "Interactive tilt frame" },
+    { id: "3d-card-folded", name: "Folded Card", comp: CardFolded, desc: "Folded paper card effect" },
+    { id: "3d-text-extruded", name: "Extruded Text", comp: TextExtruded, desc: "3D extruded text layers" },
+  ];
+
+  // Add all components to the array
+  [...carouselComponents, ...testimonialComponents, ...pricingComponents,
+   ...dataVizComponents, ...scrollingComponents, ...textComponents,
+   ...backgroundComponents, ...threeDComponents].forEach((item, i) => {
+    const category = item.id.split("-")[0] === "carousel" || item.id.split("-")[0] === "slider" ? "carousels-sliders" :
+                     item.id.split("-")[0] === "testimonial" ? "testimonials" :
+                     item.id.split("-")[0] === "pricing" ? "pricing-tables" :
+                     item.id.split("-")[0] === "chart" || item.id.split("-")[0] === "dashboard" || item.id.split("-")[0] === "progress" || item.id.split("-")[0] === "metric" || item.id.split("-")[0] === "sparkline" || item.id.split("-")[0] === "heatmap" ? "data-visualization" :
+                     item.id.split("-")[0] === "scroll" ? "scrolling-effects" :
+                     item.id.split("-")[0] === "text" ? "text-effects" :
+                     item.id.split("-")[0] === "bg" ? "backgrounds" :
+                     "3d-elements";
+
     additional.push({
-      id: `${category}-${i + 1}`,
-      name: `${category.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ")} ${i + 1}`,
-      description: `Spectacular ${category} component with modern design`,
+      id: item.id,
+      name: item.name,
+      description: item.desc,
       categories: [category as any, "animations"],
       technologies: ["react", "framer-motion", "tailwind"],
-      code: `// ${category} component implementation`,
+      code: `// ${item.name} component implementation`,
       dependencies: ["framer-motion"],
       sourceUrl: "https://ui.aceternity.com",
       sourceName: "aceternity",
       dateAdded: "2025-11-17",
-      featured: i % 10 === 0,
+      featured: i % 20 === 0,
+      previewComponent: item.comp,
     });
-  }
+  });
 
   return additional;
 }
