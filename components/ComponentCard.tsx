@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { Copy, Check, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
 import { Component } from "@/lib/types";
@@ -62,7 +62,13 @@ export function ComponentCard({ component, index = 0 }: ComponentCardProps) {
       <div className="relative mb-4 rounded-lg bg-white/5 border border-white/10 min-h-[200px] overflow-hidden">
         <div className="p-6 flex items-center justify-center">
           {component.previewComponent ? (
-            <component.previewComponent />
+            <Suspense fallback={
+              <div className="flex items-center justify-center">
+                <div className="w-8 h-8 border-4 border-emerald-500/30 border-t-emerald-500 rounded-full animate-spin"></div>
+              </div>
+            }>
+              <component.previewComponent />
+            </Suspense>
           ) : (
             <div className="text-white/50 text-sm">Preview not available</div>
           )}
